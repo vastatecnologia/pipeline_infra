@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket = "fitenergia-homolog"
+  bucket = "fitenergia-teste"
 
   tags = {
     owner      = "romulo"
