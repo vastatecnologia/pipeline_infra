@@ -1,4 +1,4 @@
-resource "aws_instance" "instance_01" {
+/*resource "aws_instance" "instance_01" {
   ami                         = "ami-0acccabdef8f5d644"
   instance_type               = "t2.medium"
   subnet_id                   = module.vpc-aws-module.subnet3_id
@@ -12,7 +12,7 @@ resource "aws_instance" "instance_01" {
   }
 }
 
-/*resource "aws_eip" "ip_instance_01" {
+resource "aws_eip" "ip_instance_01" {
   instance = aws_instance.instance_01.id
   domain   = "vpc"
 

@@ -1,7 +1,7 @@
-output "instance01_ip" {
+/*output "instance01_ip" {
   description = "IP da instancia 01 ec2"
   value       = aws_instance.instance_01.public_ip
-}
+}*/
 
 /*output "sqs_id" {
   description = "ID da fila FIFO"
